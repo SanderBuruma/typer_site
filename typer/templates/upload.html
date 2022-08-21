@@ -1,0 +1,6 @@
+<h1>The file upload template!</h1>
+<form action="/upload_booktext/" enctype="multipart/form-data" method="POST">
+  {% csrf_token %}
+  <table>{{ form }}</table>
+  <input type="submit" value="Submit!"/>
+</form>
