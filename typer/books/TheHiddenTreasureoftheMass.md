@@ -1,4 +1,5 @@
-PREFACE TO THE AMERICAN EDITION
+# Preface to the American edition
+## Preface to the American edition
 "Where there is no Mass," writes one of the Fathers of the English Oratory,"there is also no Christianity."
 The reason is plain: Christ's life was one of sacrifice - not merely of the figurative sacrifice of praise and prayer,
 but one of outward act, of suffering and of death His religion must be like Himself: it must be the continuation of the divine-human life that He led upon earth,
@@ -10,7 +11,7 @@ and the Mount of Olives from which He ascended. The Passion, it is true, is that
 at times, to other mysteries. Thus the dropping of a part of the sacred Host into the Chalice, before the Agnus Dei,
 represents the reunion of Christ's soul with His body and blood on the morning of the Resurrection.
 For a description of the many and beautiful analogies between the eucharistic life of Our Lord and His sacred Infancy, we refer the reader to Father Faber's Treatise on the Blessed Sacrament.
-The Mass is truly a"hidden treasure," and, alas, our cold, dead faith allows it to remain so. If we valued it as we ought, we would hurry every morning to the church,
+The Mass is truly a "hidden treasure," and, alas, our cold, dead faith allows it to remain so. If we valued it as we ought, we would hurry every morning to the church,
 careless of the snows of winter and the heats of summer, in order to get a share of the riches of this treasure.
 The saints knew the value of one Mass: that was a dark day in their calendar on which they were deprived of the happy privilege of saying or hearing Mass.
 Although St. Francis de Sales was overburdened with apostolic work on the Mission of the Chablais,
@@ -22,7 +23,8 @@ followed by severe frosts, made this board very slippery, so that it became dang
 for, despite the remonstrances of his friends, he made the perilous journey every morning,
 creeping over the icy plank on his hands and feet, thus daily risking his life rather than lose Mass.
 Dear Christian reader! beg this glorious Saint to obtain for you and me some portion of his burning love for the most holy and adorable Sacrifice of the altar.
-INTRODUCTION 
+# Introduction 
+## Introduction
 Some time ago, a religious superior, whose works have been specially blessed by our dear Lord, asked for a translation of the following book.
 The version now presented to the public was undertaken at my request by a Catholic layman;
 and as the coadjutor Bishop of the Western District of Scotland has kindly revised it,
@@ -131,7 +133,8 @@ of St. Joseph and of his patronage; of Sts. Peter and Paul, St. John the Baptist
 and of Blessed Sebastian Valfre. These indulgences are applicable to the holy souls in Purgatory.
 May this little book bring to many hearts a feeling of gratitude to our dear Lord for the love which He has displayed in allowing us to hear Mass,
 and may it move us to claim every day the grace of being present at this adorable Sacrifice.
-THE AUTHOR TO THE READER
+# The Author to the Reader
+## The Author to the Reader
 Treasures, however great and precious, are never appreciated until examined, counted over, and summed up. Hence it is, dear reader,
 that by many there is formed no due estimate of the holy and awful Sacrifice of the Mass.
 Though the greatest treasure which glorifies and enriches the Church of God,
@@ -163,7 +166,8 @@ which may act upon the hearts of persons of every condition, as stimulants to th
 if the attempt still appear too ambitious, and which awaken in me the hope of being useful even to you,
 who, perhaps, are not very complacent toward it, because, before the close, I shall reveal to you a hidden treasure which, if you but know how to avail yourselves of it,
 will enrich you with all good in life and in death, in time and in eternity. Farewell, and may all blessings attend you.
-THE AUTHOR AND HIS BOOK
+# The author and this book
+## The author and this book
 St. Leonard was born in 1676 at Port Maurice, a sea port near Genoa, the son of Dominic Casanova,
 a ship captain. Two brothers and a sister, besides himself, entered the Franciscan Order. When thirteen years old, he went to the renowned Roman college where St.
 Aloysius once pursued his studies. There he so distinguished himself with piety,
@@ -197,7 +201,8 @@ Through St. Leonard's intercession and by the persuasive power of The Hidden Tre
 may those in charge of liturgical revisions keep ever in mind the inner nature and devotional power of the Holy Sacrifice of the Mass.
 And may Holy Mother the Church ever continue to offer Mass in the ancient Latin rite that has come down to us from the earliest centuries in virtually its present form. Thomas A. Nelson Original Publisher December 22, 1970
 Short Instructions on the Excellence, Necessity, and Usefulness of Holy Mass
-CHAPTER ITHREE GREAT EXCELLENCIES OF THE HOLY MASS
+# Great Excellencies of the Holy Mass
+## Chapter 1
 It requires great patience to endure the language of careless livers, breathing atheism itself,
 and ruinous to devotion; as for instance,"A Mass more or less counts for little."
 "It is no small thing to hear Mass on festivals.""The Mass of this or that priest is for length like one in Holy Week;
@@ -216,7 +221,8 @@ a sacrifice called, therefore, by David, sacrificium justitiae,"the sacrifice of
 or rather justice and holiness them selves, and because it sanctifies souls by the infusion of grace and the affluence of gifts which it confers. Being,
 then, a sacrifice so holy - a sacrifice the most venerable and the most excellent of all - in order that you may form a due conception of so great a treasure,
 we shall here explain, in a manner quite succinct, some of its divine excellencies.
-To express them all were not a work to which our poor faculties could attain. III.
+To express them all were not a work to which our poor faculties could attain. 
+## III.
 The principal excellence of the most holy Sacrifice of the Mass consists in being essentially, and in the very highest degree,
 identical with that which was offered on the Cross of Calvary: with this sole difference,
 that the sacrifice on the Cross was bloody, and made once for all, and did on that one occasion satisfy fully for all the sins of the world; while the Sacrifice of the altar is an unbloody sacrifice,
@@ -282,7 +288,7 @@ to be at Mass sitting, prating, looking here and there, perhaps even sleeping, o
 without at all taking to heart the tremendous office of priest which you are exercising? Ah me! I cannot restrain myself from exclaiming,
 O dull and incapable world, that understandest nothing of mysteries so sublime!
 How is it possible that any one should remain before the altar with a mind distracted and a heart dissipated at a time when the holy angels stand there trembling and astonished at the contemplation of a work so stupendous?
-VI. 
+## VI. 
 You are surprised, perhaps, to hear me speak of the Mass as a stupendous work. But what tongue, human or angelic,
 may ever describe a power so immeasurable as that exercised by the simplest priest in the Mass? And who could ever have imagined that the voice of man,
 which by nature hath not the power even to raise a straw from the ground, should obtain through grace a power so stupendous as to bring from Heaven to earth the Son of God? It is a greater power than that which would be required to change the place of mountains,
@@ -322,7 +328,7 @@ knowing full well that the Almighty God could work prodigies infinitely greater 
 your faith with Heavenly grace, and, acknowledging this divine Sacrifice to be the miracle of miracles,
 feelingly confess that Majesty so great must needs be incomprehensible to our poor minds, and is, therefore, the more sublime; then, full of astonishment,
 exclaim again and yet again,"O treasure, how great! O treasure of love, how immense!"
-VII. 
+## Chapter 2 
 But if the intrinsic wonder and glory of the Sacrifice move you not, be moved at least by the extreme necessity for its existence.
 If there were no sun to shine on the world, what would it be? All darkness, horror, barrenness, and misery supreme.
 And if there were not holy Mass in the world? O unhappy race! We should then be vessels empty of every good,
@@ -367,7 +373,6 @@ perfume them with incense and holy sweets; and, what is more, honor them with th
 And do you, O priests, join your hands in thanksgiving to the Eternal Father for having placed you in the sweet necessity of often offering to Him this Victim of paradise;
 and, still more, thank Him for the unbounded gain which you can gather from it, if you but be faithful, not only in offering it,
 but in offering it for the proper ends for which He bestowed a gift so precious. 
-VIII.
 A sense of what is noble and virtuous does undoubtedly supply very powerful influences whereby to move the human heart; but a perception of what averts calamity,
 or secures an advantage, is generally still more powerful. Should, then, the glory and the beauty of the holy Sacrifice be of small importance in your eyes,
 how shall you fail to appreciate the vast gain it brings to both good and wicked, both during life and at the hour of death, nay,
@@ -423,7 +428,7 @@ and thus the homage and honor which we through Him give to God in the Mass is an
 that through a devout hearing of holy Mass this our obligation is fulfilled! O blinded world,
 when will you open your eyes to under stand truths which so much concern you? And you have yet the heart to say,"A Mass more or less matters little!" O mournful,
 dreadful blindness!
-X. 
+## X. 
 The second obligation by which we are bound toward God is to satisfy His justice for the commission of so many sins. Oh,
 what a measureless debt is this! One single mortal sin so weighs in the scales of divine justice,
 that to satisfy for it, all the good works of all the martyrs and of all the saints who as yet have existed, who exist now, or ever shall exist, would not suffice.
@@ -441,7 +446,8 @@ all tending toward a worthy repentance of our sins, either at the time of Mass i
 God alone knows how many souls issue from the filth of sins through the extraordinary aids which come to them by this divine Sacrifice.
 And here reflect that al though indeed the man in mortal sin is not aided by the Sacrifice as a propitiation,
 it yet avails as supplication; and therefore all sinners ought to hear many Masses,
-in order to obtain more easily the grace of conversion. To souls that live in grace it gives a wonderful force, tending to maintain them in their happy X.
+in order to obtain more easily the grace of conversion. To souls that live in grace it gives a wonderful force, tending to maintain them in their happy 
+## X.
 The second obligation by which we are bound toward God is to satisfy His justice for the commission of so many sins. Oh,
 what a measureless debt is this! One single mortal sin so weighs in the scales of divine justice,
 that to satisfy for it, all the good works of all the martyrs and of all the saints who as yet have existed, who exist now, or ever shall exist, would not suffice.
@@ -463,13 +469,15 @@ in order to obtain more easily the grace of conversion. To souls that live in gr
 while it immediately cancels (according to the most common view) the guilt of all venial sins, provided, at least, that as a whole they are repented of,
 according to what St. Augustine clearly says: Si quis devote audiat Missam, non incidet in peccatum mortale, et venialia remittentur ei (Sup. Can. Quia passus,
 de Consecr. dist. 2),"He who devoutly hears holy Mass will receive a great vigor to enable him to resist mortal sin,
-and there shall be pardoned to him all venial sins which he may have committed up to that hour." Nor should this surprise;
+and there shall be pardoned to him all venial sins which he may have committed up to that hour. Nor should this surprise;
 for if, as St. Gregory narrates (Dial 1. 4, c. 57), the Masses which a poor woman caused to be celebrated every Monday for the soul of her husband, who had been enslaved by barbarians and was thought by her to be dead,
 caused the chains to be loosened from his feet, and the manacles from his arms,
-so that ever while these Masses were being celebrated he remained free and un chained,
+so that ever while these Masses were being celebrated he remained free and unchained,
 as he himself declared on his return; how much more must not we believe such a sacrifice to be most efficacious for the loosening of spiritual bonds, such as venial sins,
 bonds which hold the soul, as it were, imprisoned, leaving it no power to work with that freedom and fervor with which it would work were it not for these impediments? O blessed Mass,
-setting at liberty the sons of God, and satisfying all the penalties due to so many offences! XI. You will, perhaps, say to me, It suffices, then,
+setting at liberty the sons of God, and satisfying all the penalties due to so many offences! 
+## XI.
+You will, perhaps, say to me, It suffices, then,
 to hear one single Mass to strike off the heaviest debts due to God through many committed sins, because,
 Mass being of infinite value, we can therewith pay to God an infinite satisfaction.
 Not so fast, by your leave; because, though indeed Mass is of infinite value,
@@ -502,7 +510,8 @@ you should make sure to the best of your power by attending many Masses, and by 
 Blessed are you if you maintain a great confidence in the loving mercy of God,
 which shines so wonderfully forth in this divine sacrifice; and with lively faith and devout recollection attend as many Masses as you can; for I declare that,
 doing this with per severance, you may attain to the sweet hope of reaching Heaven without any intervening share in Purgatory. To Mass, then, dearest friends,
-and never allow yourselves to utter the thought,"A Mass more or less is of little consequence."XII.
+and never allow yourselves to utter the thought,"A Mass more or less is of little consequence."
+## XII.
 The third obligation is that of gratitude for the immense benefits which our most loving God hath be stowed upon us. Put in one heap all the gifts,
 all the graces you have received from God - so many gifts of nature and of grace, body,
 soul, senses, and faculties, and health, and life itself; yes, the very life,
@@ -531,7 +540,8 @@ in the Last Supper, before the act of consecration in that first Mass, He raised
 Tibi gratias agens fregit. O divine thanksgiving, disclosing the chief end for which was instituted this tremendous Sacrifice, and which invites us to conform ourselves to the example of our Head,
 so that in every Mass at which we assist we may know how to avail ourselves of so great a treasure,
 and offer it in gratitude to our Supreme Benefactor! And all the more, since the beloved Virgin, and the angels,
-and the saints, rejoice to witness this our tribute of thanks to so great a King. XIII.
+and the saints, rejoice to witness this our tribute of thanks to so great a King. 
+## XIII.
 The life of the venerable Sister Francesca Farnese was at one time troubled by a thousand anxieties of Heavenly love. She mourned to see herself covered from head to foot with divine benefits,
 and yet unable to prove in act the gratitude she felt, by making to her Lord any competent return.
 Behold, one day there is said to have appeared to her the most holy Virgin,
@@ -584,7 +594,7 @@ here may we find enrichment by every sort of benefit. In a word, holy Mass is th
 and while the Eternal Father gives us this key, which of all His other benefits can He refuse? Qui proprio suo Filio non pepercit, says St. Paul, sed pro nobis omnibus tradidit ilium,
 quo modo non etiam cum illo omnia nobis donavit?"He that spared not even His own Son, but delivered Him up for us all, how hath He not also, with Him,
 given us all things?" (Rom. 8:32.) Now, was not that good priest quite right who used to say that whatever he asked of God, even the loftiest height of grace,
-for himself or others, while celebrating holy Mass, he seemed to himself to be asking nothing in comparison with the offering which he was engaged in making to Him? {Osor.
+for himself or others, while celebrating holy Mass, he seemed to himself to be asking nothing in comparison with the offering which he was engaged in making to Him? (Osor.
 Com. 8, tom. 4.) He reasoned thus: All the favors which I ask of God in Mass are finite, whereas the gift which I offer to Him is un created and infinite,
 and so, the account being rightly summed, I am the creditor, He the debtor. The good priest by no means purposed to deny that the power of offering the gift,
 and the gift itself, came first from God; but, put ting it thus, he courageously besought great graces, and received yet greater.
@@ -594,7 +604,8 @@ for a cup of cold water given out of love of Him, He will, in return, give parad
 should He not give you a hundred Heavens, were there so many? How can you doubt but that He wishes to give you all the virtues and all the perfections which are required to make you a saint,
 and a great saint, in Heaven? O blessed Mass! Expand yet more and more your heart, and ask great things of Him,
 with the reflection that you ask of a God Who does not grow poor by giving, and, therefore, the more you petition for, the more you will obtain.
-XVI. But - will you believe it? - besides the benefits which we ask in holy Mass,
+## XVI.
+But - will you believe it? - besides the benefits which we ask in holy Mass,
 our good God grants many others which we do not ask. St. Jerome distinctly declares,
 Absque dubio dat nobis Dominus quod in Missa petimus; et quod magis est, sape dat quod non petimus (cap. cum mart, de celeb. Miss.)."Without doubt," says the Saint,
 "the Lord grants all the favors which are asked of Him in Mass, provided they be those fitting for us; and,
@@ -641,7 +652,9 @@ considered in itself and in its intrinsic worth, than by opening the treasury of
 or by going as pilgrim over the whole world and visiting with utmost devotion the sanctuaries of Rome,
 of Compostella, of Loreto, Jerusalem, and the rest. And this most reasonably follows from the position laid down by the angelic St. Thomas, when he says that in Mass are contained all the fruits,
 all the graces, yea, all those immense treasures which the Son of God poured out so abundantly upon the Church, His Spouse, in the bloody sacrifice of the Cross.
-In qualibet Missa invenitur omnis fructus et utilitas quam Christus in die Parasceves operatus est in cruce (de Consecr. dist. 2).Now, pause a little - close this book - read no further at present,
+In qualibet Missa invenitur omnis fructus et utilitas quam Christus in die Parasceves operatus est in cruce (de Consecr. dist. 2).
+## Chapter 3
+Now, pause a little - close this book - read no further at present,
 but sum up in your mind all these singular uses of holy Mass, weigh them well in silence,
 and then tell me, will you have again a difficulty in believing that one single Mass - speaking of its own intrinsic worth and value - is of such efficacy as,
 according to the speculation of various learned men, might have sufficed to obtain the salvation of the whole human race? Imagine the case that Our Lord Jesus Christ had not suffered anything on Calvary and,
@@ -727,7 +740,8 @@ as not only to fail in charity by neglecting prayer for their friends departed,
 never hearing a single Mass for their poor suffering souls, but even trampling on every dictate of justice, by refusing to fulfill the pious legacies of their predecessors,
 or who, being priests, accumulate obligations to offer Masses, with out ever doing so; oh,
 that I could take fire to cast at you, saying to your face - Away with you,
-worse than devil! after all, devils only torment reprobate souls, but you torment the spirits of the elect; devils are only XVIII.
+worse than devil! after all, devils only torment reprobate souls, but you torment the spirits of the elect; devils are only 
+## XVIII.
 If I thought there was a chance of your being one of those so sunk in avarice,
 as not only to fail in charity by neglecting prayer for their friends departed,
 never hearing a single Mass for their poor suffering souls, but even trampling on every dictate of justice,
@@ -812,7 +826,8 @@ and still more from your tongue, the monstrous thought that"a Mass more or less 
 or"that it is no small thing to hear Mass on festivals"; or"that the Mass of this or that priest is like a Mass of Holy Week for length; when he appears at the altar it is high time to get out of church."
 Renew also your holy resolution to hear from this time forward as many Masses as you possibly can, and, above all, with due devotion. To succeed,
 make use of the practical and devout method which follows; and may God bless you.
-CHAPTER EA SHORT AND DEVOUT METHOD OF HEARING HOLY MASS WITH PROFIT
+# Devout method of hearing Holy mass with profit
+## Chapter 1
 It was the opinion of Chrysostom (Homil. 3, incomp. Dei. Nat.), in harmony with that which has just been taught in the preceding instruction, and his opinion was co nf irmed by St.
 Gregory in the fourth of his Dialogues, that while holy Mass is being celebrated by the priest,
 the Heavens open and there descend from the empyrean many bands of angels to assist at the divine Sacrifice.
@@ -868,7 +883,8 @@ The second was red; that is, the meditation on the Passion of Jesus, contemplati
 when He suffered a death so bitter: and in this he engaged his mind till the Communion.
 The third was white; because, while the priest communicated, he united himself mentally with his Jesus in the Sacrament, making a spiritual Communion, after which he remained all absorbed in God,
 thinking of the glory for which he hoped, as fruit of the divine Sacrifice. This plain,
-simple soul heard Mass with much perfection; and I wish that all might learn from him a wisdom so sub lime. VI.
+simple soul heard Mass with much perfection; and I wish that all might learn from him a wisdom so sub lime. 
+## VI.
 The third method of hearing holy Mass with profit consists of a course between the two just now described, neither requiring you to read many vocal prayers,
 as is prescribed in the first, nor calling for a very elevated spirit of contemplation,
 such as is aimed at by those who follow the second. But if you consider it well,
@@ -983,7 +999,8 @@ the loss you have suffered while you have been present at holy Mass, but looking
 or being half asleep, or, at most, mumbling wretchedly a few vocal prayers without one whit of interior recollection.
 Resolve, then, to embrace this most sweet and easy way of hearing Mass with profit,
 which consists in paying the four great debts due to God, and be very sure that in a short time you will make an abundant acquisition of the rarest graces. After trying this plan,
-it will never again enter your mind to say,"A Mass more or less is of no consequence."XI.
+it will never again enter your mind to say,"A Mass more or less is of no consequence."
+## XI.
 As for the way of making a spiritual Communion at the time when the priest communicates at Mass, as was alluded to above,
 it behooves one to know the doctrine laid down by the holy Council of Trent,
 which says that men may receive the Holy Sacrament in three manners: the first, only sacramentally;
@@ -1035,7 +1052,7 @@ If I succeed in gaining you who read me now, I shall imagine myself to have gain
 But in order to take away all the excuses which are wont to be brought forward by some for not hearing holy Mass, there shall be adduced, in the following chapter,
 various examples adapted to every sort of person, to show that, if they deprive themselves of so great a good, it is by their own fault, their tepidity, their weariness in well-doing;
 and that great indeed shall be their remorse on this account at the point of death.
-VARIOUS EXAMPLES TO INDUCE THE FAITHFUL OF EVERY CONDITION EACH MORNING TO HEAR HOLY MASS
+## Various examples to induce the faithful of every condition each morning to hear Holy Mass
 Many are the excuses which those who attend holy Mass grudgingly and with reluctance find for their tepidity. You may observe them all immersed in business,
 all anxious and intent (to use a common and most accurate expression) on promoting"their own dirty interests." For these, every fatigue is a trifle;
 nor is there any inconvenience which they will allow to stand in their way;
@@ -1054,7 +1071,9 @@ I know no method more efficacious than example, it being an irrefragable maxim, 
 and everything is rendered easy and pleasant which we see done by our companions or equals.
 Tu non poteris, said St. Augustine, accusing himself, tu non poteris quod isti et istae? (Confes. 1, 8, c. 11.) We shall, therefore, adduce several examples,
 bearing reference to various classes of persons, hoping thus at last to win all. 1. Examples to induce Priests to celebrate Mass every Morning,
-save in case of just impediment 1. Examples to induce Priests to celebrate Mass every Morning,
+save in case of just impediment 
+# Examples to induce Priests to celebrate Mass every Morning,
+## Priests
 save in case of just impedimentn instance which came under my own observation will explain the first part of what I have to say to priests. A priest, by reason of a violent blow on the fingers of his right hand,
 was prevented celebrating for two months. From saying Mass as formerly every day, never once omit ting it,
 he now did not even communicate, though there occurred several high festivals;
@@ -1191,6 +1210,7 @@ All children of dispositions too trivial, who are tinged with levity of demeanor
 trifle, or make any noise, should be carefully excluded from the altar steps.
 I beseech Almighty God that He would enlighten men of judgment and education to undertake this holy and honorable I beseech Almighty God that He would enlighten men of judgment and education to undertake this holy and honorableffice!
 It is the noble and the wise who should set the example to others. 2. Of various Princes, Kings and Emperors
+## For the nobility and rulers
 The good examples of those in high life usually move us more than the piety, however striking, of private men;
 the common maxim being unquestionable, Regis ad exem plum totus componitur orbis,
 "every one follows the ex ample of the king." And oh, what a long series of such examples might I not adduce to animate all to follow the footsteps of the great,
@@ -1255,8 +1275,9 @@ so far as to grant him the right to quarter in his arms the imperial device (an 
 a favor not ex tended to any other prince. Thus God, by means of the emperor,
 rewarded with temporal honors the great devotion of Wenceslaus toward the divine Sacrifice.
 But much more was he rewarded by the King of Heaven when, by means of a most glorious martyrdom, there was granted to him a crown of eternal glory: and thus we behold him,
-through his passionate tenderness for holy Mass, doubly crowned, in this and in the other world. Reflect and re solve. 3.
-Ladies' Dress A lady who enters church decked out with various ornaments is apt to attract attention,
+through his passionate tenderness for holy Mass, doubly crowned, in this and in the other world. Reflect and re solve.
+## Ladies' Dress 
+A lady who enters church decked out with various ornaments is apt to attract attention,
 and perhaps, though God forbid it, to withdraw hearts from the worship of God.
 ft is needless to adduce examples to encourage ladies to hear holy Mass every day. Truly they are but too well inclined to frequent churches,
 and the thing in point is to make them understand with what modesty and reverence they ought to demean themselves in the house of God,
@@ -1381,7 +1402,8 @@ so constant were her observations or questions, and so many the little methods o
 One morning there occurred a violent tempest, and a thunder bolt fell among the crowd,
 which slew her alone, reducing her to ashes. Learn, then, at another's cost,
 and avoid those who with idle talk, and with so much irreverence in church, make themselves truly the servants of Satan;
-spurn them if you do not yourselves wish to incur the wrath of God. 5. For Tradesmen and Artisans
+spurn them if you do not yourselves wish to incur the wrath of God. 
+## For Tradesmen and Artisans
 The idol of our times is self-interest, and, alas, how many prostrate themselves before it offering to it at all times and in all places their undivided homage! And thence it comes that,
 pursuing this idol, they forget the true God, and so come to plunge themselves into an abyss of evil, and a perpetual destitution of all true good; whereas,
 the holy Royal Prophet declares that all who in the first place seek God shall not encounter any evil,
@@ -1456,7 +1478,7 @@ how can you doubt the fact? Does it not say clearly, Quaerite primum regnum Dei.
 .. et haec omnia adjicientur vobis?"Seek first the kingdom of God, and all these things shall be added unto you." (Matt. 6:33.) Make but the trial for a year;
 hear holy Mass every morning with true earnest devotion for one year, and if your temporal interests do not take a better turn, lay the blame on me.
 But there is little fear of that; you will rather have many reasons to thank me.
-6. For Laborers
+## For Laborers
 The Apostle St. Paul says that he who does not duly provide for and take care of his family is worse than an infidel. Si quis suorum, et maxime domesticorum curam non habet,
 fidem negavit, et est infideli deterior (1 Tim. 5:8). This is to be understood, not only of their bodies, but much rather of their souls;
 so that if it would be a great impiety to leave one's household in want of corporal food,
@@ -1494,21 +1516,19 @@ there to offer his prayers. That Mass ended, there then commenced a second;
 and, stimulated by his devotion, he heard this other Mass also. When he returned to the accustomed place,
 he found it solitary, every one being already hired by various proprietors in the neighborhood;
 so the good man, much cast down, returned toward his house; but in the way encountered a wealthy citizen, who, struck with the clouds of grief on his brow,
-asked whence arose his sorrow."What would you have?" said the poor fellow."This morning, in order not to lose Mass,
-I have lost my day's hire.""Give yourself no trouble about that," said the rich citizen,
-"go to church, hear another Mass for my intention, and this evening I will pay you a day's hire." The poor man went and heard all the Masses celebrated that day,
+asked whence arose his sorrow."What would you have?" said the poor fellow."This morning, in order not to lose Mass, I have lost my day's hire."
+"Give yourself no trouble about that," said the rich citizen, "go to church, hear another Mass for my intention, and this evening I will pay you a day's hire." The poor man went and heard all the Masses celebrated that day,
 and in the evening went to receive his wage, which consisted of twelve soldi,
 the usual pay of day-laborers in that district. He was going contentedly home,
 when he met an unknown personage (as I conceive, the Saviour of the world Himself) who asked what reward he had obtained for a day so well employed. And on hearing the reply,
-He said,"What! so little for work so meritorious? Go back to the rich man, and tell him that if he does not increase the gift,
-his affairs shall all go wrong." This simple soul took the message to the citizen,
+He said,"What! so little for work so meritorious? Go back to the rich man, and tell him that if he does not increase the gift, his affairs shall all go wrong." This simple soul took the message to the citizen,
 who gave him five pieces more and bade him go in peace. The poor man was quite satisfied with his increase, but Jesus was not satisfied!"Return," said the unknown counsellor,
 "return to the niggardly man, and tell him that if he does not increase your reward,
 he may look for a dreadful disaster." Again he went with a demeanor of timid respect,
 and with hesitating utterance and low voice, delivered his message. Then the rich man,
 deeply struck, and moved interiorly by God, went so far as to give him a hundred soldi,
-with some clothing quite good and new. (Nicol. Lag. tract. 6, d. 10, de Mis. G. 100.
-)No doubt you admire with reason Divine Providence thus interposing in behalf of this poor vine-dresser,
+with some clothing quite good and new. (Nicol. Lag. tract. 6, d. 10, de Mis. G. 100.)
+No doubt you admire with reason Divine Providence thus interposing in behalf of this poor vine-dresser,
 be cause of the pious devotion with which he had always assisted at the Holy Sacrifice.
 But much more worthy of admiration is the favor which the Sovereign Mercy thus contrived to exercise toward the rich man; for the following night the Saviour appeared to him in sleep,
 and related to him that, through the Masses heard for him by his poor neighbor,
@@ -1517,9 +1537,9 @@ At this terrific announcement, he awoke, and full of horror for his evil ways,
 he became most devout toward holy Mass, at which he continued to assist every morning,
 and caused also many to be celebrated every day in different churches, till at last, after a virtuous life, he ended his days by a happy death.
 See now how gracious is God's bounty toward those who prove devout lovers of the Holy Sacrifice of Mass. Ah, hasten then, my poor friends, hasten to Mass,
-and be very sure that by this one exercise of devotion you shall find consolation amid all your trials. 7.
-A Solemn Warning for all such as refuse to value the Great Treasure Two Doctors of the Church, the angelic St. Thomas and the seraphic St. Bonaventure,
-teach, in conformity with the foregoing instruction, that the thrice-holy Sacrifice of Mass is of infinite value, both by reason of the Victim Who is offered,
+and be very sure that by this one exercise of devotion you shall find consolation amid all your trials. 
+## A Solemn Warning for all such as refuse to value the Great Treasure Two Doctors of the Church, the angelic St. Thomas and the seraphic St. Bonaventure,
+Teach, in conformity with the foregoing instruction, that the thrice-holy Sacrifice of Mass is of infinite value, both by reason of the Victim Who is offered,
 namely, the body, blood, soul, and divinity of Jesus Christ Our Lord, and also by reason of the primary Offerer, Who is no other than the same Jesus Himself.
 Yet by how many is it so little valued that they postpone the inestimable treasure to every 7.
 A Solemn Warning for all such as refuse to value the Great Treasure Two Doctors of the Church,
@@ -1600,7 +1620,8 @@ Thus we shall have the joy of beholding renewed in the Christians of our time al
 and thus will our most gracious and Almighty God be supremely honored and glorified - the sole and single aim of this poor work.
 Reader, say for me one "Hail Mary."2 Of the exiled Stuarts.
 St. Leonard is in Heaven, and needs no prayers: the charitable reader will perhaps say the"Hail Mary" for him who has translated these pages.
-CHAPTER IVEASY METHOD OF ATTENDING HOLY MASS WITH PROFITA
+# Easy method of attending Holy Mass with Profita
+## Chapter 1
 Prayer of most humble Devotion to the Holy Spirit, to be offered before hearing Holy Mass, in order to implore His aid
 Come, O Holy Spirit, and with Thy most holy grace gather together, I beseech of Thee,
 all the faculties and all the affections of my soul, so that, with devout attention and with my whole heart,
@@ -1666,7 +1687,8 @@ Prayer while the Priest gives his Blessing to the People O my Lord, most loving 
 Who, while Thy disciples were all intently given to prayer, didst send down from Heaven the Holy Spirit to console them;
 purify, I beseech Thee, my heart with Thy most holy grace, so that the Holy Spirit,
 finding in it a pleasing abode, may dwell therein, and so enrich the poverty of my soul. Amen.
-
+# Devout Exercises of Preparation and Thanksgiving for Confession and Holy Communion
+## Chapter 1
 Soul, that dost belong to God, read and consider these devout exercises. The more you read and make your own these good and fervent thoughts, the more will you please Jesus,
 and the greater your reward in the life eternal. If at the first sentence you find yourself struck with devotion and compunction,
 pass no farther on, but rest where God hath begun to draw and work upon you. When circumstances prevent your communicating sacramentally, fail not to do so spiritually,
@@ -1722,7 +1744,7 @@ Dear Jesus, be Thou forever blessed, for having by Thy pardon freed me from Hell
 and replaced me in my inheritance of Paradise. Infinite Goodness, I thank Thee.
 But, O my God, I am capable of betraying Thee more than ever, and worse than Judas: I cannot trust to myself. Help, help me with Thy grace; hold Thy hands above me;
 help me in my temptations, and, oh, far rather take away my life than let me again offend Thee!
-Exercises for Holy Communion
+## Exercises for Holy Communion
 Arise, my soul; revive thy faith, which tells thee that thy God become man, that same Jesus Who was born in the stable of Bethlehem, that Jesus Who rose triumphant from the grave,
 that Jesus Who now sits glorious at the right hand of the Father, is now present with thee in the Most Holy Sacrament.
 O Faith! O Faith! what greater thing can be said and believed? God is here, in order to enter my heart and become entirely mine - the Almighty God!
@@ -1814,7 +1836,7 @@ or who shall ever receive Thee in time to come. My desire and purpose is, to mak
 and I mean to offer the whole in union with those virtues, that merit, that holiness,
 with which Thou, O my Jesus, didst receive Thyself in the Sacrament, at the Last Supper.
 May the Church Triumphant and Militant now supply my defects of love, and worship, and thanks.
-Devotions After Holy Communion
+## Devotions After Holy Communion
 Behold, my longings are fulfilled! Behold, my desires are satisfied! Now hath my God come to visit me! Now Jesus dwelleth within me! Now I am no longer my own but Christ's: I no longer live in myself, but in Jesus,
 and Jesus lives in me. I am altogether the possession of Jesus, and Jesus is altogether mine. O Infinite Goodness! A God - the God of Heaven - hath touched the tongue,
 and come within the breast, and sought the heart of a human creature, and one so vile,
@@ -1886,11 +1908,10 @@ Here apply yourself to ask with lively faith from God the graces and favors whic
 O Most Holy Trinity, O my omnipotent God, hear these my prayers. Now is not the time to refuse graces even to the most O Most Holy Trinity, O my omnipotent God,
 hear these my prayers. Now is not the time to refuse graces even to the mostnworthy,
 because it is not I myself alone that am seeking them, but, together with me,
-Jesus Christ is supplicating. Though I do not deserve to be heard, Jesus Christ deserves it, Who prays with me, and in me,
-and for me. Eternal Father, I call up before Thee the promises of Jesus Christ,
-Who hath said that what ever graces we seek from Thee in His Name, without any other means, they shall be obtained from Thee: Amen amen,
-dico vobis, si quid petieritis Patrem in nomine meo, dabit vobis (John 16 : 23).
-Act of Oblation
+Jesus Christ is supplicating. Though I do not deserve to be heard, Jesus Christ deserves it, Who prays with me, and in me, and for me.
+Eternal Father, I call up before Thee the promises of Jesus Christ,
+Who hath said that what ever graces we seek from Thee in His Name, without any other means, they shall be obtained from Thee: Amen amen, dico vobis, si quid petieritis Patrem in nomine meo, dabit vobis (John 16 : 23).
+## Act of Oblation
 My Jesus, it is but justice and common gratitude that I should give myself entirely to Thee, after Thou hast given Thyself entirely to me. Thou hast, in coming to me,
 penetrated and made godlike all my being with Thy Divinity, and so I ought henceforward to continue Thine. May these eyes, renewed by Thee, continue Thine;
 may these ears, sanctified by Thee, continue Thine; this taste, sanctified by Thee, may it be Thine. Thou hast sanctified all my senses; may they be Thine,
@@ -1906,7 +1927,7 @@ justice, goodness, charity toward our superiors, our equals, and our inferiors.
 To be humble, teachable, patient, modest, chaste, temperate, detached from the world and from self, and to be occupied about our own salvation, and the means of attaining it.
 All this to be fulfilled with the intention of rendering glory to God, in faithful imitation of Jesus Christ, His Son, our Lord, our Head,
 and our Model. This is the portrait of a true Christian. Seek to make it your own.
-Act of Oblation to be Made Every Morning
+## Act of Oblation to be Made Every Morning
 Eternal God, and my God, behold me prostrate before Thy immense Majesty, and humbly adoring Thee. 1 offer Thee all my thoughts, words, and actions of this day.
 1 purpose them all to be thought, spoken, and done entirely for love of Thee,
 for Thy glory, to fulfill Thy divine will, to serve Thee, praise Thee, and bless Thee;
@@ -1918,8 +1939,9 @@ and to repeat it from a loving heart, as often as there are moments in eternity.
 Receive, O my dearest God, this my good intention; give me Thy holy benediction with efficacious grace to keep me from mortal sin through all my life, but particularly this day,
 in which 1 desire and purpose to receive all the Indulgences which 1 am capable of receiving, and to assist, were it possible,
 at all the Masses which are celebrated this day throughout the whole world,
-applying all in supplication for the holy souls in Purgatory, that they may be freed from detention in its pains and come quickly before the face of God. So be it. Act of Supplication to Obtain of God the General Pardon of Sins,
-and Every Other Gift Consistent with Eternal Salvation O my omnipotent God, Who art infinite in all Thy admirable attributes,
+applying all in supplication for the holy souls in Purgatory, that they may be freed from detention in its pains and come quickly before the face of God. So be it. 
+# Act of Supplication to Obtain of God the General Pardon of Sins
+O my omnipotent God, Who art infinite in all Thy admirable attributes,
 but art especially rich in compassion, and art ever urged by that love of Thine,
 by which Thou so liberally grantest what we humbly and with lively faith petition for; Who  my omnipotent God, Who art infinite in all Thy admirable attributes,
 but art especially rich in compassion, and art ever urged by that love of Thine,
@@ -1947,7 +1969,8 @@ That compassion I will invoke every moment. Every moment I mean that this blesse
 my will and wish is that it should go on forever, my mouth uttering from my heart those most sweet words:O my Jesus,
 Mercy! Mercy, O my Jesus! I wish to live with these blessed words upon my tongue,
 and to die with these holy words stamped upon my heart. I wish to say them a hundred, and a thousand times a day. Mercy, O my Jesus! O my Jesus, Mercy!
-CHAPTER VIRULES FOR LIVING WELL
+# Virules for living well
+## Chapter 1
 He who desires to be saved, lives according to rule, and establishes an arrangement of his time with a view to devotional exercises. Dearest reader,
 if you wish to maintain yourself in the grace of God, never abandon these brief exercises which I now propose to you.
 Choose for yourself a good confessor, to whom you may confide the treasure of your soul. Go often to him,
