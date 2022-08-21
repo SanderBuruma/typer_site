@@ -1070,9 +1070,9 @@ and awaken, one and all! Be this your most sweet and beloved devotion - to hear 
 I know no method more efficacious than example, it being an irrefragable maxim, Vivimus ab exemplo;
 and everything is rendered easy and pleasant which we see done by our companions or equals.
 Tu non poteris, said St. Augustine, accusing himself, tu non poteris quod isti et istae? (Confes. 1, 8, c. 11.) We shall, therefore, adduce several examples,
-bearing reference to various classes of persons, hoping thus at last to win all. 1. Examples to induce Priests to celebrate Mass every Morning,
+bearing reference to various classes of persons, hoping thus at last to win all.
 save in case of just impediment 
-# Examples to induce Priests to celebrate Mass every Morning,
+# Examples to induce Priests to celebrate Mass every Morning
 ## Priests
 save in case of just impedimentn instance which came under my own observation will explain the first part of what I have to say to priests. A priest, by reason of a violent blow on the fingers of his right hand,
 was prevented celebrating for two months. From saying Mass as formerly every day, never once omit ting it,
@@ -1312,8 +1312,8 @@ and, despoiled of all ornament, would remain covered with a veil, so modest in d
 This so pleased Almighty God that He chose to make His satisfaction apparent to all; for once, during Mass,
 the Saint was so glorified with divine splendor that the eyes which looked on her were dazzled,
 and she seemed to all as it were an angel of paradise. Make use of this noble example, and be assured you will thus become pleasing to God and to man,
-and your share in the divine Sacrifice will be of the highest profit to you in this life and in the next. 4.
-For Women in General
+and your share in the divine Sacrifice will be of the highest profit to you in this life and in the next.
+## For Women in General
 Great, indeed, is the benefit to be derived from holy Mass, as has been shown in the preceding instances;
 but very often it is not befitting for all women to go to church on weekdays.
 You who nurse a child, or are obliged by motives, whether of virtue or of charity,
@@ -1606,7 +1606,7 @@ if you hurry out your words, or confuse the different acts, and, in short, bustl
 you receive, the Son of the Most High; nor are you blameless in regard to each the very slightest ceremony which you either leave out or perform more or less imperfectly.
 Such is the teaching of the most learned Suarez, when he treats of the question,
 Vel unius caerimoniae omissio culpae reatum inducit (T. 5, in 3 part. dist.
-85. lect. 2). Whence that oracle of Spain, [St.] John of Avila, was always firmly of opinion that the Eternal Judge will, in the case of priests, make,
+lect. 2). Whence that oracle of Spain, [St.] John of Avila, was always firmly of opinion that the Eternal Judge will, in the case of priests, make,
 before every thing else, a most rigorous scrutiny into all the Masses they have celebrated. Thus when on one occasion a young priest had departed to the other world,
 just as he had barely finished his first Mass, the holy man, hearing of his death, heaved a sigh, and asked,"Had he ever offered Mass?"
 And when they told of his happy fate in dying so soon as his first Mass was celebrated,
@@ -1940,7 +1940,7 @@ Receive, O my dearest God, this my good intention; give me Thy holy benediction 
 in which 1 desire and purpose to receive all the Indulgences which 1 am capable of receiving, and to assist, were it possible,
 at all the Masses which are celebrated this day throughout the whole world,
 applying all in supplication for the holy souls in Purgatory, that they may be freed from detention in its pains and come quickly before the face of God. So be it. 
-# Act of Supplication to Obtain of God the General Pardon of Sins
+## Act of Supplication to Obtain of God the General Pardon of Sins
 O my omnipotent God, Who art infinite in all Thy admirable attributes,
 but art especially rich in compassion, and art ever urged by that love of Thine,
 by which Thou so liberally grantest what we humbly and with lively faith petition for; Who  my omnipotent God, Who art infinite in all Thy admirable attributes,
@@ -2106,14 +2106,14 @@ this rule was later shortened to three hours for food and one hour for liquids (
 It is very praiseworthy to continue observing the traditional fast either from midnight or for three hours.
 What kind of sin is it to receive Communion unworthily? To do so knowingly and willingly is a mortal sin called a sacrilege.
 (1 Corinthians 1 1 :27-29). Holy Communion Is Your Treasure Consider what you lose when you miss one Holy Communion:
-1. You lose a special increase of Sanctifying Grace, that grace which makes your soul more pleasing to God. 2.
+.1. You lose a special increase of Sanctifying Grace, that grace which makes your soul more pleasing to God. 2.
 You lose the sacramental grace which entitles you to special help in the time of temptation and in the discharge of your duties.
-3. You lose a precious opportunity of having all your venial sins wiped away. 4. You miss the special preserving influence which each Holy Communion confers against the fires of passion.
-5. You miss the opportunity of obtaining remission of a part or of all the temporal punishment due to your sins. 6. You lose the spiritual joy,
+.3. You lose a precious opportunity of having all your venial sins wiped away. 4. You miss the special preserving influence which each Holy Communion confers against the fires of passion.
+.5. You miss the opportunity of obtaining remission of a part or of all the temporal punishment due to your sins. 6. You lose the spiritual joy,
 the sweetness, and the particular comfort that come from a fervent Holy Communion.
-7. You miss a personal visit with Jesus, the Author of all spiritual energy and of all holiness.
-8. You lose a greater degree of glory that would be yours in Heaven for all eternity.
-9. You may lose: a. Complete victory over some fault or passion. b. Some particular grace long prayed for.
+.7. You miss a personal visit with Jesus, the Author of all spiritual energy and of all holiness.
+.8. You lose a greater degree of glory that would be yours in Heaven for all eternity.
+.9. You may lose: a. Complete victory over some fault or passion. b. Some particular grace long prayed for.
 c. The conversion or salvation of some soul. d. The deliverance of a relative or friend from Purgatory.
 e. Many graces for others, both the living and the dead. Of what riches you deprive yourself daily by neglecting Holy Mass! The Mass is the best preparation for Holy Communion.
 At the hour of death your greatest consolation will be the Masses you have heard and the Holy Communions you have received.
@@ -2177,8 +2177,8 @@ so that I may give myself to Thee with my whole heart, as Thou dost give Thyself
 become one for the glory of God and the salvation of my soul. May Thy Spirit rule me so completely that Thou alone mayest be the aim and the ideal of my life and that like St.
 Paul I may exclaim,"And I live, now not I; but Christ liveth in me." (Gal. 2:20).
 Are You Christlike?1. Do you value Sanctifying Grace more than anything else in the world?
-2. Have you made up your mind to avoid everything that might put you in danger of losing Sanctifying Grace by mortal3. Are you trying to be like Christ in your thoughts, desires, words and actions?
-4. Do you receive Holy Communion as often as you can so that you may become Christlike?
+Have you made up your mind to avoid everything that might put you in danger of losing Sanctifying Grace by mortal3. Are you trying to be like Christ in your thoughts, desires, words and actions?
+Do you receive Holy Communion as often as you can so that you may become Christlike?
 Novena Prayer -Aspiration for the day:
 O my Jesus, Thou Who art very Love, enkindle in my heart that divine fire which consumes the Saints and transforms them into Thee. Ind. of 300 days.
 "Blessed are the meek: for they shall possess the land."
@@ -2216,9 +2216,9 @@ O Jesus, I realize that I cannot be a true child of Mary, nor can I be like Mary
 unless I have a very tender devotion to Thee in the Sacrament of the Altar.
 The Holy Eucharist must be my treasure, as it was hers. I can do nothing that would please Thee or her more than to be Marylike in my devotion to the Holy Eucharist.
 Mary is the shortest and surest and easiest way to Thy Eucharistic Heart. May frequent Holy Communion make me Marylike, in order that I may become more Christlike! Are You Marylike?
-1. Are you meekly subject to God's holy law and wholly dependent on His love as Mary was?2.
+Are you meekly subject to God's holy law and wholly dependent on His love as Mary was?2.
 Do you realize that it was Our Lord's dying wish that you should belong entirely to His Mother, imitate her example and thus become more like Him?
-3. Do you attend Mass, receive Communion and make visits to the Blessed Sacrament frequently, in order to become Marylike in your devotion to the Holy Eucharist?4.
+Do you attend Mass, receive Communion and make visits to the Blessed Sacrament frequently, in order to become Marylike in your devotion to the Holy Eucharist?4.
 Do you often prepare yourself for Holy Communion and make your thanksgiving in union with Mary,
 so that she may make up for whatever is lacking in your devotion and love?- Novena Prayer -Aspiration for the day:O Sacred Heart of Jesus, I give myself to Thee through Mary.
 300 days (238)-THIRD DAY-Joyfulness" Blessed are they that mourn: for they shall be comforted." (Matt. 5:5).O JESUS, Thou knowest how often my heart is sad.
@@ -2253,8 +2253,8 @@ for It inflames my heart with Thy love. It is the most efficacious means I have 
 My heart is filled with heavenly bliss because Thou dost make it Thy little heaven of delights when Thou dost visit me in Holy Communion. With Thine own dear Mother,
 I thank Thee for this great Treasure:"My soul doth magnify the Lord. And my spirit hath rejoiced in God my Saviour...
 Because he that is mighty hath done great things to me." (Luke 1 :46-47, 49).Are You Joyful?
-1. Where do you seek consolation when your heart is sad? 2. Does your love for worldly things prevent Our Lord from giving you that true spiritual joy which alone can make you happy?
-3. Do you put as much effort into seeking your joy in God as you do in trying to find satisfaction in the passing pleasures of the world? 4. Are you eager to enjoy the friendship of Jesus in frequent Holy Communion?
+Where do you seek consolation when your heart is sad? 2. Does your love for worldly things prevent Our Lord from giving you that true spiritual joy which alone can make you happy?
+Do you put as much effort into seeking your joy in God as you do in trying to find satisfaction in the passing pleasures of the world? 4. Are you eager to enjoy the friendship of Jesus in frequent Holy Communion?
 Aspiration for the day:
 O Jesus, my God, I love Thee above all things. 300 days. (72) L a s t Communion of St Jerome,
 by Sandro Botticelli-FOURTH DAY-Prayerfulness" Blessed are they that hunger and thirst after justice: for they shall have their fill." (Matt. 5:6).
@@ -2304,11 +2304,11 @@ of Thy painful sufferings, of Thy most bitter death. Thou dost come to enrich me
 to make my body pure and my soul holy, to help me live a life more like Thine own.
 May frequent Holy Communion teach me prayerfulness and make me less unworthy of receiving the favors I ask for.
 Thy words give me great confidence:"If you abide in me, and my words abide in you,
-you shall ask whatever you will, and it shall be done unto you." (John 15:7).Are You Prayerful?1.
+you shall ask whatever you will, and it shall be done unto you." (John 15:7). Are You Prayerful?1.
 Are you in the habit of hurrying through your prayers or neglecting them?2. Do you pray with confidence, perseverance, attention, resignation? 
-3. Do you ever speak to God in your heart while you work, walk, ride, wait; and do you make all that you do a prayer, by 3. Do you ever speak to God in your heart while you work, walk,
+.3. Do you ever speak to God in your heart while you work, walk, ride, wait; and do you make all that you do a prayer, by 3. Do you ever speak to God in your heart while you work, walk,
 ride, wait; and do you make all that you do a prayer, byilling it to be so?
-4. Do you dream away your time during the Holy Sacrifice of the Mass, or make a poor preparation for Holy Communion - or a halfhearted thanksgiving afterwards?
+.4. Do you dream away your time during the Holy Sacrifice of the Mass, or make a poor preparation for Holy Communion - or a halfhearted thanksgiving afterwards?
 I cannot hope to obtain it unless I myself am ki nd and merciful toward my neighbor,
 for Thou hast taught me to pray:"Forgive us our trespasses as we forgive those who trespass against us." Thou dost assure me that I will be blessed if I am merciful,
 for Thine own mercy toward me will be the reward of my forgiving kindness to others. Intimately united with Thy loving Heart at Holy Communion,
@@ -2340,9 +2340,9 @@ unless I truly love God. Increase both loves in my heart through Holy Communion.
 May that Divine charity be poured out upon Thy Holy Church through the Sacrament of Thy Love,
 so that Thy prayer at the Last Supper may be fulfilled:"That they may be one,
 as we also are one: I in them, and thou in me; that they may be made perfect in one." (John 17:22-23). Are You Kind?
-1. Do you keep kind thoughts in your heart, and are you willing to forgive?2. Are you in the habit of judging others harshly or speaking of their faults?
+.1. Do you keep kind thoughts in your heart, and are you willing to forgive?2. Are you in the habit of judging others harshly or speaking of their faults?
 Can you see Christ in others? 3. Are you always ready to be of service to others, and do you pray for others, even for those whom you do not like?
-4. Do you regard the commandment of charity as Our Lord's last will and strive to obtain the spirit of forgiving charity by receiving Holy Communion frequently?
+.4. Do you regard the commandment of charity as Our Lord's last will and strive to obtain the spirit of forgiving charity by receiving Holy Communion frequently?
 Novena Prayer Aspiration for the day:
 My God, make us to be of one mind in the truth and of one heart in charity. 300 days. (10) of Mk
 O JESUS, Thou art holiness itself and Thou dost hate all evil. Thou art the Lover of innocent souls and Thou dost find pleasure in the pure and sinless heart.
@@ -2534,9 +2534,9 @@ Thou dost desire it because it is in this way that Thou canst most surely save m
 Apply the merits of Thy sacred Passion and Death to my poor soul in Holy Mass and Communion.
 I want to receive Thee at every Holy Mass I attend. I pledge myself to receive Thee as often as I can. From now on I am resolved to be more Eucharist-minded.
 Oh, please grant me that grace, for only then can I readily become a Saint! Are You Eucharist-minded?
-1. Do you really long to be united with Jesus in Holy Communion, or is your heart filled with selfish and worldly love?
-2. Truthfully, are you able to go to Holy Communion oftener than you do? Is there any serious reason that keeps you away, or is it simply carelessness or lack of faith?
-3. If you were now on your deathbed, would you be satisfied with the love you show toward Jesus in Holy Communion?4.
+.1. Do you really long to be united with Jesus in Holy Communion, or is your heart filled with selfish and worldly love?
+.2. Truthfully, are you able to go to Holy Communion oftener than you do? Is there any serious reason that keeps you away, or is it simply carelessness or lack of faith?
+.3. If you were now on your deathbed, would you be satisfied with the love you show toward Jesus in Holy Communion?4.
 Do you realize that at the hour of death your greatest consolation will be the Masses you have heard and the Holy Communions you have received?
 - Novena Prayer -Aspiration for the day:
 I adore Thee at every moment, O living Bread from Heaven, O Great Sacrament. Ind. of 300 days. 3 years,
@@ -2591,5 +2591,5 @@ I hereby renew the promises of my Baptism, renouncing Satan and all his works an
 And in a special manner do I undertake, so far as in me lies, to bring about the triumph of the rights of God and Thy Church. O Divine Heart of Jesus,
 I offer Thee my poor actions to obtain the acknowledgment by every heart of Thy sacred kingly power.
 Thus may the kingdom of Thy peace be firmly established throughout all the earth. Amen.
-* If prayed before an image of Christ crucified, a plenary indulgence is attached when combined with Confession, Communion and prayer for the intentions of the Holy Father. (201).
-** A plenary indulgence once daily is attached, with Confession, Communion, a visit to a Catholic church and prayer for the Holy Father's intentions being also required. (272).
+.* If prayed before an image of Christ crucified, a plenary indulgence is attached when combined with Confession, Communion and prayer for the intentions of the Holy Father. (201).
+.** A plenary indulgence once daily is attached, with Confession, Communion, a visit to a Catholic church and prayer for the Holy Father's intentions being also required. (272).
