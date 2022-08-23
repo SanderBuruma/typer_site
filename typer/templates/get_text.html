@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}{{line.part.chapter.book.title}} - {{line.part.chapter.title}}{% endblock %}
+
+{% block content %}
+<h1 id="part-title">{{line.part.title}}</h1>
+<p id="text">{{line.text}}</p>
+{% endblock %}

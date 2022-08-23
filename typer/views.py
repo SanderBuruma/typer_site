@@ -1,11 +1,14 @@
+#region imports
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 from .forms import UploadFileForm
 from .models import Book, BookChapter, ChapterPart, PartLine, TypedLineRecord
 from django.db import transaction
+#endregion
 
+#region view methods
 def index(request):
-    return HttpResponse("This is the typer website!")
+    return render(request, 'index.html')
 
 def upload_booktext(request):
     if request.method == 'POST':
@@ -15,7 +18,13 @@ def upload_booktext(request):
     else:
         form = UploadFileForm()
     return render(request, 'upload.html', {'form': form})
+    
+def get_text(request, id):
+    line = PartLine.objects.get(pk=id)
+    return render(request, 'get_text.html', {'line':line})
+#endregion
 
+#region 'private' methods
 def handle_uploaded_file(file):
     file.charset = 'UTF8'
     count = 0
@@ -44,7 +53,6 @@ def handle_uploaded_file(file):
 
     bulk_save(book, chapters, parts, lines)
 
-# @transaction.atomic
 def bulk_save(book, *args):
     book.save()
     for collection in args:
@@ -52,3 +60,4 @@ def bulk_save(book, *args):
             item.save()
 
     transaction.commit()
+#endregion
