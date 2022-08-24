@@ -2,7 +2,7 @@
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 from .forms import UploadFileForm
-from .models import Book, BookChapter, ChapterPart, PartLine, TypedLineRecord
+from .models import Book, Chapter, Section, Line, TypedLineRecord
 from django.db import transaction
 #endregion
 
@@ -20,8 +20,15 @@ def upload_booktext(request):
     return render(request, 'upload.html', {'form': form})
     
 def get_text(request, id):
-    line = PartLine.objects.get(pk=id)
-    return render(request, 'get_text.html', {'line':line})
+    arguments = {}
+    if not Line.objects.filter(pk=id).exists():
+        return HttpResponseRedirect("/")
+    arguments['line'] = Line.objects.get(pk=id)
+    if Line.objects.filter(pk=id+1).exists():
+        arguments['nextLine'] = Line.objects.get(pk=id)
+    if Line.objects.filter(pk=id-1).exists():
+        arguments['prevLine'] = Line.objects.get(pk=id)
+    return render(request, 'get_text.html', arguments)
 #endregion
 
 #region 'private' methods
@@ -39,16 +46,16 @@ def handle_uploaded_file(file):
     orders = [1, 1, 1]
     for line in text:
         if '# ' == line[0:2]:
-            chapters.append(BookChapter(title=line[2:], order=orders[0], book=book))
+            chapters.append(Chapter(title=line[2:], order=orders[0], book=book))
             orders[0] += 1
             orders[1] = 1
             orders[2] = 1
         elif '## ' == line[0:3]:
-            parts.append(ChapterPart(title=line[3:], order=orders[1], chapter=chapters[-1]))
+            parts.append(Section(title=line[3:], order=orders[1], chapter=chapters[-1]))
             orders[1] += 1
             orders[2] = 1
         else:
-            lines.append(PartLine(text=line, order=orders[2], part=parts[-1]))
+            lines.append(Line(text=line, order=orders[2], part=parts[-1]))
             orders[2] += 1
 
     bulk_save(book, chapters, parts, lines)

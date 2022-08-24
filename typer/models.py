@@ -7,22 +7,22 @@ class Book(models.Model):
     created_at = models.DateTimeField(default=datetime.now, blank=True)
     updated_at = models.DateTimeField(default=datetime.now, blank=True)
 
-class BookChapter(models.Model):
+class Chapter(models.Model):
     book = models.ForeignKey(Book, on_delete=models.CASCADE)
     title = models.TextField()
     order = models.IntegerField(default=-1)
     created_at = models.DateTimeField(default=datetime.now, blank=True)
     updated_at = models.DateTimeField(default=datetime.now, blank=True)
 
-class ChapterPart(models.Model):
-    chapter = models.ForeignKey(BookChapter, on_delete=models.CASCADE)
+class Section(models.Model):
+    chapter = models.ForeignKey(Chapter, on_delete=models.CASCADE)
     title = models.TextField()
     order = models.IntegerField(default=-1)
     created_at = models.DateTimeField(default=datetime.now, blank=True)
     updated_at = models.DateTimeField(default=datetime.now, blank=True)
 
-class PartLine(models.Model):
-    part = models.ForeignKey(ChapterPart, on_delete=models.CASCADE)
+class Line(models.Model):
+    section = models.ForeignKey(Section, on_delete=models.CASCADE)
     text = models.TextField()
     order = models.IntegerField(default=-1)
     created_at = models.DateTimeField(default=datetime.now, blank=True)
@@ -31,7 +31,7 @@ class PartLine(models.Model):
 
 # Player records
 class TypedLineRecord(models.Model):
-    line_fk = models.ForeignKey(PartLine, on_delete=models.CASCADE)
+    line_fk = models.ForeignKey(Line, on_delete=models.CASCADE)
     seconds_taken = models.IntegerField(default=9999)
     created_at = models.DateTimeField(default=datetime.now, blank=True)
     updated_at = models.DateTimeField(default=datetime.now, blank=True)
