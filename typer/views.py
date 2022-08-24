@@ -2,6 +2,7 @@
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 from django.db import transaction
+from django.contrib.auth.decorators import login_required
 
 from .forms import UploadFileForm
 from .models import Book, Chapter, Section, Line, TypedLineRecord
@@ -15,6 +16,7 @@ def index(request):
     arguments['first_lines'] = get_first_lines()
     return render(request, 'index.html', arguments)
 
+@login_required
 def upload_booktext(request):
     if request.method == 'POST':
         form = UploadFileForm(request.POST, request.FILES)

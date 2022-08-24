@@ -5,6 +5,14 @@ body {
     font-size: 20px;
 }
 
+input, button {
+  background-color: black;
+  color: #0f0;
+  border-color: green;
+  font-family: Courier New;
+}
+
+
 a, a:active, a:link, a:hover, a:visited {
   color: #0b0;
   text-decoration: none;

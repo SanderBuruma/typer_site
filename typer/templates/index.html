@@ -3,9 +3,20 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
-<h1>Welcome to Typer Site</h1>
-<p>Here you can practice your typing skills on some literature hand picked by the site creator</p>
-{% for first_line in first_lines %}
-<a href="/text/{{first_line.id}}">{{first_line.section.chapter.book.title}}</a>
-{% endfor %}
+
+    <h1>Welcome to Typer Site</h1>
+    <p>Here you can practice your typing skills on some literature hand picked by the site creator</p>
+
+    {% if user.is_authenticated %}
+        <p>Hi {{ user.username }}!</p>
+        <p><a href="{% url 'logout' %}">Log Out</a></p>
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'login' %}">Log In</a>
+    {% endif %}
+    
+    {% for first_line in first_lines %}
+        <a href="/text/{{first_line.id}}">{{first_line.section.chapter.book.title}}</a>
+    {% endfor %}
+
 {% endblock %}
