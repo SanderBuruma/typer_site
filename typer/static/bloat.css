@@ -2,6 +2,12 @@ body {
     color: #0b0;
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+a, a:active, a:link, a:hover, a:visited {
+  color: #0b0;
+  text-decoration: none;
 }
 
 #content {
@@ -12,4 +18,14 @@ body {
 .custom input {
   background-color: black;
   color: #0f0;
+}
+
+.next-previous {
+  margin: 10px;
+}
+.next-previous .next {
+  float: right;
+}
+.next-previous .prev {
+  float: left;
 }

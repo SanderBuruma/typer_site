@@ -1,15 +1,19 @@
 #region imports
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
+from django.db import transaction
+
 from .forms import UploadFileForm
 from .models import Book, Chapter, Section, Line, TypedLineRecord
-from django.db import transaction
+
 import re
 #endregion
 
 #region view methods
 def index(request):
-    return render(request, 'index.html')
+    arguments = {}
+    arguments['first_lines'] = get_first_lines()
+    return render(request, 'index.html', arguments)
 
 def upload_booktext(request):
     if request.method == 'POST':
@@ -31,6 +35,7 @@ def get_text(request, id):
         arguments['nextLineId'] = id+1
     if Line.objects.filter(pk=id-1).exists():
         arguments['prevLine'] = Line.objects.get(pk=id-1).text
+        arguments['prevLineId'] = id-1
     return render(request, 'get_text.html', arguments)
 #endregion
 
@@ -48,7 +53,8 @@ def handle_uploaded_file(file):
     chapters, sections, lines = ([], [], [])
     orders = [1, 1, 1]
     for line in text:
-        line = line[:-2]
+        line = re.sub(r'[\r\n]', '', line)
+        line = re.sub(r'\\[rn]', '', line)
         line = re.sub(r'[\\]', '', line)
         if '# ' == line[0:2]:
             chapters.append(Chapter(title=line[2:], order=orders[0], book=book))
@@ -72,4 +78,10 @@ def bulk_save(book, *args):
             item.save()
 
     transaction.commit()
+
+def get_first_lines():
+    # the first line of each book
+    first_lines = Line.objects.filter(section__chapter__order=1, section__order=1, order=1).all()
+    return first_lines
 #endregion
+

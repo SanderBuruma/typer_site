@@ -9,6 +9,10 @@
     font-family: Courier New;
     width: 100%;
 }
+#type-here.error {
+    color: red;
+    background-color: #400;
+}
 
 #line-previous, #line-next {
     color: #080;
@@ -25,7 +29,7 @@
 {% endblock %}
 
 {% block content %}
-<h1 id="section-title">{{line.section.title}}</h1>
+<h2>{{section.chapter.book.title}} - {{section.chapter.title}}</h2>
 <p>
     {% if prevLine %}
     <span id="line-previous">{{prevLine}}</span>
@@ -38,6 +42,16 @@
     {% endif %}
 </p>
 <input autofocus id="type-here" type="text" value="">
+{% if nextLine or prevLine %}
+<div class="next-previous">
+    {% if prevLine %}
+        <a class="prev" href="/text/{{prevLineId}}"><-- previous</a>
+    {% endif %}
+    {% if nextLine %}
+        <a class="next" href="/text/{{nextLineId}}">next --></a>
+    {% endif %}
+</div>
+{% endif %}
 {% if nextLine %}
     <input type="hidden" id="next-line-id" value="{{nextLineId}}">
 {% endif %}
@@ -75,6 +89,7 @@ function handleOnChange(){
         currentLineTypedElement.innerHTML = currentLine.substring(0, typedText.length);
         currentLineElement.innerHTML = currentLine.substring(typedText.length);
         currentLineWronglyTypedElement.innerHTML = ""
+        typeHereInput.classList.remove('error')
         return;
     }
 
@@ -91,6 +106,7 @@ function handleOnChange(){
     currentLineTypedElement.innerHTML = currentLine.substring(0, correctIndex);
     currentLineWronglyTypedElement.innerHTML = currentLine.substring(correctIndex, typedText.length);
     currentLineElement.innerHTML = currentLine.substring(typedText.length);
+    typeHereInput.classList.add('error')
 
     console.log({typedText, correctIndex})
 }

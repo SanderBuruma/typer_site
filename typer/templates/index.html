@@ -4,5 +4,8 @@
 
 {% block content %}
 <h1>Welcome to Typer Site</h1>
-<p>Here you can practice your typing skills on some nice literature hand picked by the site creator</p>
+<p>Here you can practice your typing skills on some literature hand picked by the site creator</p>
+{% for first_line in first_lines %}
+<a href="/text/{{first_line.id}}">{{first_line.section.chapter.book.title}}</a>
+{% endfor %}
 {% endblock %}
