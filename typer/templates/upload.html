@@ -1,6 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Upload a Book!{% endblock%}
+
+{% block styles %}
+{% endblock %}
+
+{% block content %}
 <h1>The file upload template!</h1>
-<form action="/upload_booktext/" enctype="multipart/form-data" method="POST">
+<form class="custom" action="/upload_booktext/" enctype="multipart/form-data" method="POST">
   {% csrf_token %}
   <table>{{ form }}</table>
-  <input type="submit" value="Submit!"/>
+  <input class="custom" type="submit" value="Submit!"/>
 </form>
+{% endblock %}

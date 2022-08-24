@@ -8,3 +8,8 @@ body {
     max-width: 800px;
     margin: auto;
 }
+
+.custom input {
+  background-color: black;
+  color: #0f0;
+}
