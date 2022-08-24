@@ -4,6 +4,7 @@ from django.shortcuts import render
 from .forms import UploadFileForm
 from .models import Book, Chapter, Section, Line, TypedLineRecord
 from django.db import transaction
+import re
 #endregion
 
 #region view methods
@@ -23,11 +24,12 @@ def get_text(request, id):
     arguments = {}
     if not Line.objects.filter(pk=id).exists():
         return HttpResponseRedirect("/")
-    arguments['line'] = Line.objects.get(pk=id)
+    arguments['line'] = Line.objects.get(pk=id).text
     if Line.objects.filter(pk=id+1).exists():
-        arguments['nextLine'] = Line.objects.get(pk=id)
+        arguments['nextLine'] = Line.objects.get(pk=id+1).text
+        arguments['nextLineId'] = id+1
     if Line.objects.filter(pk=id-1).exists():
-        arguments['prevLine'] = Line.objects.get(pk=id)
+        arguments['prevLine'] = Line.objects.get(pk=id-1).text
     return render(request, 'get_text.html', arguments)
 #endregion
 
@@ -42,23 +44,25 @@ def handle_uploaded_file(file):
     text = text.split('\\n')
     text[0] = text[0][2:]
     book = Book(title=file.name)
-    chapters, parts, lines = ([], [], [])
+    chapters, sections, lines = ([], [], [])
     orders = [1, 1, 1]
     for line in text:
+        line = line[:-2]
+        line = re.sub(r'[\\]', '', line)
         if '# ' == line[0:2]:
             chapters.append(Chapter(title=line[2:], order=orders[0], book=book))
             orders[0] += 1
             orders[1] = 1
             orders[2] = 1
         elif '## ' == line[0:3]:
-            parts.append(Section(title=line[3:], order=orders[1], chapter=chapters[-1]))
+            sections.append(Section(title=line[3:], order=orders[1], chapter=chapters[-1]))
             orders[1] += 1
             orders[2] = 1
         else:
-            lines.append(Line(text=line, order=orders[2], part=parts[-1]))
+            lines.append(Line(text=line, order=orders[2], section=sections[-1]))
             orders[2] += 1
 
-    bulk_save(book, chapters, parts, lines)
+    bulk_save(book, chapters, sections, lines)
 
 def bulk_save(book, *args):
     book.save()

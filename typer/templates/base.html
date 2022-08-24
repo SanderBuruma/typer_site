@@ -1,7 +1,7 @@
 <head>
     <title>TyperSite - {% block title %}%PLACEHOLDER%{% endblock %}</title>
     <link rel="stylesheet" href="/static/bloat.css">
-    <style>{% block style %}{% endblock %}</style>
+    {% block style %}{% endblock %}
 </head>
 <body>
     <div id="content">
@@ -10,8 +10,9 @@
         {% endblock %}
     </div>
 </body>
-<script type="text/javascript">
-    {% block script %}
-    console.log("%PLACEHOLDER%: Hello world!")
-    {% endblock %}
+
+{% block script %}
+<script>
+console.log("%PLACEHOLDER%: Hello world!")
 </script>
+{% endblock %}
