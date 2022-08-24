@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}{{line.section.chapter.book.title}} - {{line.section.chapter.title}}{% endblock %}
+{% block title %}{{section.chapter.book.title}} - {{section.chapter.title}}{% endblock %}
 
 {% block style %}
 <style>
@@ -7,7 +7,7 @@
     background-color: black;
     color: #0f0;
     font-family: Courier New;
-    max-width: 100%;
+    width: 100%;
 }
 
 #line-previous, #line-next {

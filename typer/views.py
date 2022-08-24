@@ -25,6 +25,7 @@ def get_text(request, id):
     if not Line.objects.filter(pk=id).exists():
         return HttpResponseRedirect("/")
     arguments['line'] = Line.objects.get(pk=id).text
+    arguments['section'] = Line.objects.get(pk=id).section
     if Line.objects.filter(pk=id+1).exists():
         arguments['nextLine'] = Line.objects.get(pk=id+1).text
         arguments['nextLineId'] = id+1
