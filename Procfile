@@ -1,2 +1,2 @@
-web: gunicorn typersite_project.wsgi
+web: gunicorn typersite.wsgi
 python manage.py migrate
