@@ -9,9 +9,9 @@ There the princess caught a glimpse of him, grasped him and kissed him.
 The Father, a blacksmith, was also at the fair and saw them kissing.
 Right when he saw it, he became angry and stormed at them.
 He took the 'prince' out behind the shed, he was bloody and red.
-He din't have no permission from him to be kissing his daughter.
+The 'prince' din't have no permission from him to be kissin his daughter.
 ## Princess
-Princess couldn't do anything anymore, daddy would not let her leave the house.
+Princess could do nothing anymore, daddy would not let her leave the house.
 'Prince' didn't know what to do, he was now beyond hope. He needed a few weeks before he could walk again.
 The Father was happy, knowing his daughter's honor was safe.
 The End!

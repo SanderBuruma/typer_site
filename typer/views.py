@@ -21,7 +21,7 @@ def upload_booktext(request):
     if request.method == 'POST':
         form = UploadFileForm(request.POST, request.FILES)
         if form.is_valid():
-            handle_uploaded_file(request.FILES['document'])
+            handle_uploaded_file(request.FILES['document'], form.cleaned_data["name"])
     else:
         form = UploadFileForm()
     return render(request, 'upload.html', {'form': form})
@@ -43,33 +43,36 @@ def get_text(request, id):
 #endregion
 
 #region 'private' methods
-def handle_uploaded_file(file):
+def handle_uploaded_file(file, name):
     file.charset = 'UTF8'
-    count = 0
     text = '';
     for chunk in file.chunks():
-        count += 1
         text += str(chunk)
     text = text.split('\\n')
     text[0] = text[0][2:]
-    book = Book(title=file.name)
+    book = Book(title=name)
     chapters, sections, lines = ([], [], [])
     orders = [1, 1, 1]
     for line in text:
         line = re.sub(r'[\r\n]', '', line)
         line = re.sub(r'\\[rn]', '', line)
         line = re.sub(r'[\\]', '', line)
-        if '# ' == line[0:2]:
+        line = re.sub(r'^[^#]*?(?=# )', '', line)
+        line = re.sub(r'^[^#]*?(?=## )', '', line)
+        if '## ' in line:
+            sections.append(Section(title=line[3:], order=orders[1], chapter=chapters[-1]))
+            orders[1] += 1
+            orders[2] = 1
+        elif '# ' in line:
             chapters.append(Chapter(title=line[2:], order=orders[0], book=book))
             orders[0] += 1
             orders[1] = 1
             orders[2] = 1
-        elif '## ' == line[0:3]:
-            sections.append(Section(title=line[3:], order=orders[1], chapter=chapters[-1]))
-            orders[1] += 1
-            orders[2] = 1
         else:
-            lines.append(Line(text=line, order=orders[2], section=sections[-1]))
+            try: 
+                lines.append(Line(text=line, order=orders[2], section=sections[-1]))
+            except:
+                print()
             orders[2] += 1
 
     bulk_save(book, chapters, sections, lines)
