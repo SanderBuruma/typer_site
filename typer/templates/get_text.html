@@ -29,32 +29,35 @@
 {% endblock %}
 
 {% block content %}
-<h2>{{section.chapter.book.title}} - {{section.chapter.title}}</h2>
-<p>
-    {% if prevLine %}
-    <span id="line-previous">{{prevLine}}</span>
+    <h2>{{section.chapter.book.title}} - {{section.chapter.title}}</h2>
+    <p>
+        {% if prevLine %}
+            <span id="line-previous">{{prevLine}}</span>
+        {% endif %}
+    
+        <span id="line-current-typed"></span><span id="line-current-wrongly-typed"></span><span id="line-current-to-type">{{line}}</span>
+    
+        {% if nextLine %}
+            <span id="line-next">{{nextLine}}</span>
+        {% endif %}
+    </p>
+    <input autofocus id="type-here" type="text" value="">
+    {% if nextLine or prevLine %}
+        <div class="next-previous">
+        {% if prevLine %}
+            <a class="prev" href="/text/{{prevLineId}}"><-- previous</a>
+        {% endif %}
+        {% if nextLine %}
+            <a class="next" href="/text/{{nextLineId}}">next --></a>
+        {% endif %}
+    </div>
     {% endif %}
 
-    <span id="line-current-typed"></span><span id="line-current-wrongly-typed"></span><span id="line-current-to-type">{{line}}</span>
-
     {% if nextLine %}
-    <span id="line-next">{{nextLine}}</span>
+        <input type="hidden" id="next-line-id" value="{{nextLineId}}">
+    {% else %}
+        <input type="hidden" id="next-line-id" value="">
     {% endif %}
-</p>
-<input autofocus id="type-here" type="text" value="">
-{% if nextLine or prevLine %}
-<div class="next-previous">
-    {% if prevLine %}
-        <a class="prev" href="/text/{{prevLineId}}"><-- previous</a>
-    {% endif %}
-    {% if nextLine %}
-        <a class="next" href="/text/{{nextLineId}}">next --></a>
-    {% endif %}
-</div>
-{% endif %}
-{% if nextLine %}
-    <input type="hidden" id="next-line-id" value="{{nextLineId}}">
-{% endif %}
 {% endblock %}
 
 {% block script %}
