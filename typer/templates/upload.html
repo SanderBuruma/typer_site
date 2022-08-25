@@ -6,7 +6,9 @@
 {% endblock %}
 
 {% block content %}
-<h1>The file upload template!</h1>
+<h1>Upload a Book!</h1>
+<p>Books must be in <a href="https://www.google.com/search?q=markdown" target="_">markdown</a> format. Using only lines with text, headings and subheadings. <br/>For example: <a href="/static/Prince Princess and Father.md">Prince Princess and Father</a></p>
+
 <form class="custom" action="/upload_booktext/" enctype="multipart/form-data" method="POST">
   {% csrf_token %}
   <table>{{ form }}</table>

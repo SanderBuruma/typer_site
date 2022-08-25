@@ -30,12 +30,13 @@ def get_text(request, id):
     arguments = {}
     if not Line.objects.filter(pk=id).exists():
         return HttpResponseRedirect("/")
+    line = Line.objects.get(pk=id)
     arguments['line'] = Line.objects.get(pk=id).text
     arguments['section'] = Line.objects.get(pk=id).section
-    if Line.objects.filter(pk=id+1).exists():
+    if Line.objects.filter(pk=id+1, section__chapter__book_id=line.section.chapter.book.id).exists():
         arguments['nextLine'] = Line.objects.get(pk=id+1).text
         arguments['nextLineId'] = id+1
-    if Line.objects.filter(pk=id-1).exists():
+    if Line.objects.filter(pk=id-1, section__chapter__book_id=line.section.chapter.book.id).exists():
         arguments['prevLine'] = Line.objects.get(pk=id-1).text
         arguments['prevLineId'] = id-1
     return render(request, 'get_text.html', arguments)

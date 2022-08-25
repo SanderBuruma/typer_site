@@ -5,6 +5,16 @@
     {% block style %}{% endblock %}
 </head>
 <body>
+    <div class="navbar">
+        <div><a href="/">TyperSite</a></div>
+        {% if user.is_authenticated %}
+            <div><a href="/upload_booktext/">Upload Book</a></div>
+            <div><a href="{% url 'logout' %}">Log Out</a></div>
+            <div><a href="/admin/">Admin</a></div>
+        {% else %}
+            <div><a href="{% url 'login' %}">Login</a></div>
+        {% endif %}
+    </div>
     <div id="content">
         {% block content %}
         <h1>%PLACEHOLDER%</h1>

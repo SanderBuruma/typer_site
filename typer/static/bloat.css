@@ -15,7 +15,16 @@ input, button {
 
 a, a:active, a:link, a:hover, a:visited {
   color: #0b0;
-  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  border-bottom: 1px solid;
+  border-bottom-color: #0f0;
+  padding-bottom: 5px;
+}
+.navbar div{
+  margin: auto;
 }
 
 #content {
