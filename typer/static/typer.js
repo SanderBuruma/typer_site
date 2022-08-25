@@ -15,7 +15,7 @@ function handleOnChange(){
     let maxMatch = 0;
 
     // Redirect to next text if the current text is good and submit the score
-    if (typedText == currentLine) {
+    if (typedText.substring(0, currentLine.length) == currentLine) {
         console.log({currentLine, nextLineId})
         window.location.href = "/text/" + nextLineId
         return
