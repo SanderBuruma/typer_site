@@ -13,7 +13,11 @@
                 "runserver"
             ],
             "django": true,
-            "justMyCode": true
+            "justMyCode": true,
+            "env": {
+                "secret_key": "27ee59296d3b90a3e74092c24d7cdfc725ab33a25555e4cb",
+                "debug": "True"
+            }
         }
     ]
 }
