@@ -1,19 +1,17 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
-import random
-
-# Create your models here.
-class Password(models.Model):
+from random import sample
+class ScrambledPassword(models.Model):
     def __str__(self):
-        return self.title
+        return self.text
 
-    password = models.CharField(max_length=128, default="")
+    text = models.CharField(max_length=128, default="")
 
     @property
     def shuffled(self):
-        return random.shuffle(self.password)
+        return ''.join(sample(self.text,len(self.text)))
 
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     created_at = models.DateTimeField(default=timezone.now, blank=True)
     updated_at = models.DateTimeField(default=timezone.now, blank=True)

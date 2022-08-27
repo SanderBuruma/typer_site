@@ -7,8 +7,7 @@ let currentLine = document.getElementById("line-current-to-type").innerHTML
 let typedText = ""
 console.log({currentLine})
 
-typeHereInput.addEventListener("onchange", handleOnChange);
-typeHereInput.addEventListener("keyup", handleOnChange);
+typeHereInput.addEventListener("oninput", handleOnChange);
 
 function handleOnChange(){
     let typedText = typeHereInput.value
