@@ -3,6 +3,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 from django.db import transaction
 from django.contrib.auth.decorators import login_required
+from django.db import transaction
 
 from .forms import UploadFileForm
 from .models import Book, Chapter, Section, Line, TypedLineRecord
@@ -77,6 +78,7 @@ def handle_uploaded_file(file, name):
 
     bulk_save(book, chapters, sections, lines)
 
+@transaction.atomic
 def bulk_save(book, *args):
     book.save()
     for collection in args:

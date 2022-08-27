@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'typer.apps.TyperConfig',
+    'password_scrambler.apps.TyperConfig',
 ]
 
 MIDDLEWARE = [

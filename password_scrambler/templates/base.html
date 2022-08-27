@@ -1,14 +1,13 @@
 <head>
-    <title>Typer - {% block title %}%PLACEHOLDER%{% endblock %}</title>
+    <title>Passowrd Scrambler - {% block title %}%PLACEHOLDER%{% endblock %}</title>
     <link rel="stylesheet" href="/static/bloat.css">
     <link rel="shortcut icon" type="image/png" href="/static/favicon.png"/>
     {% block style %}{% endblock %}
 </head>
 <body>
     <div class="navbar">
-        <div><a href="/">TyperSite</a></div>
+        <div><a href="/">Password Scrambler</a><br/><p>Helping you to memorize random passwords</p></div>
         {% if user.is_authenticated %}
-            <div><a href="/upload_booktext/">Upload Book</a></div>
             <div><a href="{% url 'logout' %}">Log Out</a></div>
             <div><a href="/admin/">Admin</a></div>
         {% else %}
