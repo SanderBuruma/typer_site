@@ -41,7 +41,7 @@
             <span id="line-next">{{nextLine}}</span>
         {% endif %}
     </p>
-    <input autofocus id="type-here" type="text" value="">
+    <input autofocus id="type-here" type="text" oninput="handleOnChange()" value="">
     {% if nextLine or prevLine %}
         <div class="next-previous">
         {% if prevLine %}
