@@ -85,7 +85,6 @@ def bulk_save(book, *args):
         for item in collection:
             item.save()
 
-    transaction.commit()
 
 def get_first_lines():
     # the first line of each book
