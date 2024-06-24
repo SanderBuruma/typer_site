@@ -27,7 +27,6 @@ DEBUG = bool(os.environ.get('debug')) or False
 
 ALLOWED_HOSTS = ['typersite.herokuapp.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -77,15 +76,10 @@ WSGI_APPLICATION = 'typer_site.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'DB_NAME',
-        'USER': 'DB_USER',
-        'PASSWORD': 'DB_PASSWORD',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'typer_site.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
