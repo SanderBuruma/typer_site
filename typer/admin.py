@@ -7,4 +7,3 @@ admin.site.register(Chapter)
 admin.site.register(Section)
 admin.site.register(Line)
 admin.site.register(TypedLineRecord)
-
