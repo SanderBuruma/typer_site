@@ -17,7 +17,7 @@ cd (folder)
 first_install.ps1
 ```
 
-## Book uploaindg
+## Book uploading
 There are some text files provided in `typer/books` which you can upload upon logging in, or uyou can make your own by putting together *.md files which are laid out with h1 # and h2 ## headings (no other tags are supported). All *.md book files must start with a # and ## tag
 
 ## Text Selection
