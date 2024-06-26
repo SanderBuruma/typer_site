@@ -13,7 +13,7 @@
     {% if book_list %}
         <p>Books:</p>
         {% for book in book_list %}
-            <p><a href="text/{{book.first_line.id}}">{{book.title}} - {{book.first_line.text}}</a></p>
+            <p><a href="text/{{book.first_line.id}}">{{book.title}}</a> - {{book.first_line.text}}</p>
         {% endfor %}
     {% endif %}
 
