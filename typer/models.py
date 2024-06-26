@@ -10,6 +10,10 @@ class Book(models.Model):
     created_at = models.DateTimeField(default=timezone.now, blank=True)
     updated_at = models.DateTimeField(default=timezone.now, blank=True)
 
+    @property
+    def first_line(self):
+        return Line.objects.filter(section__chapter__book=self).first()
+
 class Chapter(models.Model):
     def __str__(self):
         return self.title
@@ -30,12 +34,22 @@ class Section(models.Model):
 
 class Line(models.Model):
     def __str__(self):
-        return self.text[:50]
+        return self.text
     section = models.ForeignKey(Section, on_delete=models.CASCADE)
     text = models.TextField()
     order = models.IntegerField(default=-1)
     created_at = models.DateTimeField(default=timezone.now, blank=True)
     updated_at = models.DateTimeField(default=timezone.now, blank=True)
+    
+    @property
+    def previous_line(self):
+        result = Line.objects.filter(id = self.id - 1).first()
+        return result
+
+    @property
+    def next_line(self):
+        result = Line.objects.filter(id = self.id + 1).first()
+        return result
 # endregion
 
 # Player records

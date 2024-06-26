@@ -10,10 +10,10 @@
     {% endif %}
     <p>Here you can practice your typing skills on some literature hand picked by the site creator</p>
    
-    {% if first_lines %}
+    {% if book_list %}
         <p>Books:</p>
-        {% for first_line in first_lines %}
-            <p><a href="/text/{{first_line.id}}">{{first_line.section.chapter.book.title}}</a></p>
+        {% for book in book_list %}
+            <p><a href="text/{{book.first_line.id}}">{{book.title}} - {{book.first_line.text}}</a></p>
         {% endfor %}
     {% endif %}
 

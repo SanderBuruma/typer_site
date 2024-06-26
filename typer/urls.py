@@ -1,9 +1,10 @@
 from django.urls import path
 from . import views
+from typer.views import IndexView, TextTypeView
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', IndexView.as_view()),
+    path('text/<int:pk>', TextTypeView.as_view()),
     path('upload_booktext/', views.upload_booktext, name='upload_booktext'),
-    path('text/<int:id>', views.get_text, name='get_text'),
 ]
 

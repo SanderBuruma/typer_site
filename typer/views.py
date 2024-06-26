@@ -3,7 +3,8 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 from django.db import transaction
 from django.contrib.auth.decorators import login_required
-from django.db import transaction
+import django.views.generic as django_generic
+from django.views.generic import TemplateView, DetailView
 
 from .forms import UploadFileForm
 from .models import Book, Chapter, Section, Line, TypedLineRecord
@@ -11,11 +12,20 @@ from .models import Book, Chapter, Section, Line, TypedLineRecord
 import re
 #endregion
 
-#region view methods
-def index(request):
-    arguments = {}
-    arguments['first_lines'] = get_first_lines()
-    return render(request, 'index.html', arguments)
+#region view methods and classes
+class IndexView(TemplateView):
+    template_name = 'index.html'
+
+    def get_context_data(self, **kwargs):
+        # Call the base implementation first to get a context
+        context = super().get_context_data(**kwargs)
+        # Add in a QuerySet of all the books
+        context["book_list"] = Book.objects.all()
+        return context
+
+class TextTypeView(DetailView):
+    model = Line
+    template_name = 'get_text.html'
 
 @login_required
 def upload_booktext(request):
@@ -26,27 +36,12 @@ def upload_booktext(request):
     else:
         form = UploadFileForm()
     return render(request, 'upload.html', {'form': form})
-    
-def get_text(request, id):
-    arguments = {}
-    if not Line.objects.filter(pk=id).exists():
-        return HttpResponseRedirect("/")
-    line = Line.objects.get(pk=id)
-    arguments['line'] = Line.objects.get(pk=id).text
-    arguments['section'] = Line.objects.get(pk=id).section
-    if Line.objects.filter(pk=id+1, section__chapter__book_id=line.section.chapter.book.id).exists():
-        arguments['nextLine'] = Line.objects.get(pk=id+1).text
-        arguments['nextLineId'] = id+1
-    if Line.objects.filter(pk=id-1, section__chapter__book_id=line.section.chapter.book.id).exists():
-        arguments['prevLine'] = Line.objects.get(pk=id-1).text
-        arguments['prevLineId'] = id-1
-    return render(request, 'get_text.html', arguments)
 #endregion
 
 #region 'private' methods
 def handle_uploaded_file(file, name):
     file.charset = 'UTF8'
-    text = '';
+    text = ''
     for chunk in file.chunks():
         text += str(chunk)
     text = text.split('\\n')

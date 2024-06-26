@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block title %}{{section.chapter.book.title}} - {{section.chapter.title}}{% endblock %}
 
 {% block style %}
@@ -13,7 +14,6 @@
     color: red;
     background-color: #400;
 }
-
 #line-previous, #line-next {
     color: #080;
 }
@@ -29,37 +29,37 @@
 {% endblock %}
 
 {% block content %}
-    <h2>{{section.chapter.book.title}} - {{section.chapter.title}} - {{section.order}}</h2>
+    <h2>{{line.section.chapter.book.title}} - {{line.section.chapter.title}} - {{line.section.order}}</h2>
     <p>
-        {% if prevLine %}
-            <span id="line-previous">{{prevLine}}</span>
+        {% if line.previous_line %}
+            <span id="line-previous">{{line.previous_line}}</span>
         {% endif %}
     
         <span id="line-current-typed"></span><span id="line-current-wrongly-typed"></span><span id="line-current-to-type">{{line}}</span>
     
-        {% if nextLine %}
-            <span id="line-next">{{nextLine}}</span>
+        {% if line.next_line %}
+            <span id="line-next">{{line.next_line}}</span>
         {% endif %}
     </p>
     <input autofocus id="type-here" type="text" oninput="handleOnChange()" value="">
-    {% if nextLine or prevLine %}
+    {% if line.next_line or line.prev_line %}
         <div class="next-previous">
-        {% if prevLine %}
-            <a class="prev" href="/text/{{prevLineId}}"><-- previous</a>
+        {% if line.previous_line %}
+            <a class="prev" href="/text/{{line.prev_line.id}}"><-- previous</a>
         {% endif %}
-        {% if nextLine %}
-            <a class="next" href="/text/{{nextLineId}}">next --></a>
+        {% if line.next_line %}
+            <a class="next" href="/text/{{line.next_line.id}}">next --></a>
         {% endif %}
     </div>
     {% endif %}
 
-    {% if nextLine %}
-        <input type="hidden" id="next-line-id" value="{{nextLineId}}">
+    {% if line.next_line %}
+        <input type="hidden" id="next-line-id" value="{{line.next_line.id}}">
     {% else %}
         <input type="hidden" id="next-line-id" value="">
     {% endif %}
 {% endblock %}
 
 {% block script %}
-<script src="/static/typer.js"></script>
+<script src="{% static 'typer.js' %}"></script>
 {% endblock %}

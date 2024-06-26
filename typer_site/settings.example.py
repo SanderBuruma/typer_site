@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('secret_key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get('debug')) or False
 
-ALLOWED_HOSTS = ['typersite.herokuapp.com']
+ALLOWED_HOSTS = ['typersite.herokuapp.com', '127.0.0.1:8000']
 
 # Application definition
 
