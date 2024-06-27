@@ -18,7 +18,7 @@ first_install.ps1
 ```
 
 ## Book uploading
-There are some text files provided in `typer/books` which you can upload upon logging in, or uyou can make your own by putting together *.md files which are laid out with h1 # and h2 ## headings (no other tags are supported). All *.md book files must start with a # and ## tag
+There are some text files provided in `typer/books` which you can upload upon logging in, or you can make your own by putting together *.md files which are laid out with h1 # and h2 ## headings (no other tags are supported). All *.md book files must start with a # and ## tag
 
 ## Text Selection
 Books are selected through markdown files which are prepared in advance using only headings, (chapters) subheadings (parts) and individual lines (lines...)

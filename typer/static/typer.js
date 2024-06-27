@@ -46,6 +46,7 @@ function handleOnChange(){
             break;
         }
     }
+
     // Fill the currentLine spans
     currentLineTypedElement.innerHTML = currentLine.substring(0, correctIndex);
     currentLineWronglyTypedElement.innerHTML = currentLine.substring(correctIndex, typedText.length);
